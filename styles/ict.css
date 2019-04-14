@@ -1,0 +1,56 @@
+html{
+  color: black;
+  font-family: sans-serif;
+  font-size: 10px;
+  background-color: white;
+}
+
+body{
+
+}
+
+header{
+  background-color: blue;
+  color: white;
+}
+
+h1{
+  text-align: center;
+  font-size: 4rem;
+  font-family: serif;
+}
+h2{
+  text-align: center;
+  font-size: 3rem;
+}
+h3{
+  font-size: 2rem;
+  font-style: italic;
+
+}
+nav{
+  text-align: center;
+  background-color: black;
+}
+ul{
+
+}
+li{
+  list-style-type: none;
+  display: inline;
+  font-size: 1.5rem;
+}
+
+img{
+
+}
+main{
+
+}
+
+p{
+  font-size: 1.5rem;
+}
+footer{
+  border-top: 1px solid black;
+}
