@@ -54,3 +54,7 @@ p{
 footer{
   border-top: 1px solid black;
 }
+a{
+  font-size: 2rem;
+  color: orange;
+}
