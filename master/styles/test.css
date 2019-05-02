@@ -6,12 +6,14 @@ html{
 }
 
 body{
-
+  margin: 0;
+  padding: 0;
 }
 
 header{
   background-color: blue;
   color: white;
+  padding-top: 5px;
 }
 
 h1{
@@ -31,43 +33,50 @@ h3{
 nav{
   text-align: center;
   background-color: black;
+  padding: 15px;
 }
-ul{
 
+ul{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
+
 li{
   list-style-type: none;
   display: inline;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 
-img{
-
-}
 main{
-
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 10px;
 }
 
 p{
   font-size: 1.5rem;
 }
+
 address{
   font-style: normal;
   text-align: center;
-  background-color: navy;
-  margin: 0 850px 0 850px;
+  background-color: blue;
 }
+
 a{
   font-size: 2rem;
   color: orange;
 }
+
 .contact{
   font-size: 3rem;
   color: white;
 }
+
 .ICT{
   color: blue;
 }
+
 footer{
   border-top: 1px solid black;
 }
